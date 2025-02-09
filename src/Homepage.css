@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #ffecf4, #fdf4ff);
+  color: #333;
+  letter-spacing: 0.5px;
+  line-height: 1.6;
+}
+
+.header {
+  background: #ff7ca1;
+  color: #fff;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nav a {
+  color: #fff;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: 400;
+  transition: color 0.3s ease;
+}
+
+.nav a:hover {
+  color: #ffdde5;
+}
+
+.banner {
+  background: linear-gradient(135deg, #ffbedf, #ffa2d0);
+  padding: 4rem 2rem;
+  text-align: center;
+  color: #fff;
+}
+
+.banner h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.banner h2 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 1.8rem;
+}
+
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.product-card {
+  border: 1px solid #ffc1ce;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: #fff;
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.product-card img {
+  max-width: 100px;
+  height: 100px;
+  object-fit: contain;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+  margin-bottom: 1rem;
+}
+
+.product-card:hover img {
+  transform: scale(1.1);
+}
+
+.product-info h3 {
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.product-info p {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+button {
+  background: #ff69b4;
+  color: #fff;
+  border: none;
+  padding: 0.7rem 1.2rem;
+  cursor: pointer;
+  font-size: 0.9rem;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+  margin-top: 1rem;
+}
+
+button:hover {
+  background: #fff;
+  color: #ff69b4;
+  border: 1px solid #ff69b4;
+}
+
+.footer {
+  background: #ff7ca1;
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}
+
+.footer a {
+  color: #ffdde5;
+  text-decoration: none;
+  margin: 0 0.5rem;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #fff;
+}

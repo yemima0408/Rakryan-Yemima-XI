@@ -1,0 +1,63 @@
+body {
+    background-image: linear-gradient(to right, #ffd1dc, #e7dcff, #cbe7ff); 
+    font-family: "Santis", Arial, sans-serif; 
+    color: #621b4d;
+  }
+  
+   .container {
+    max-width: 550px;
+    margin: 135px auto;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 28px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .container:hover {
+    transform: scale(1.02);
+  }
+  
+  .done {
+    color: rgb(127, 165, 255);
+    text-decoration: line-through;
+    text-decoration-color: rgb(255, 255, 255);
+  }
+  
+  p.judul {
+    font-family: "Santis", Arial, sans-serif;
+    color: #6b5b95;
+    font-size: 28px;
+    text-shadow: 1px 1px 2px rgb(255, 255, 255);
+  }
+  
+  p {
+    line-height: 1.6;
+    margin: 10px 0;
+  }
+    
+  button {
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: "Santis", Arial, sans-serif; 
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  button.btn-tambah {
+    background-color: rgb(255, 150, 180); 
+    color: white;
+    border: none;
+  }
+  
+  button.btn-tambah:hover {
+    background-color: rgb(255, 133, 160);
+    transform: scale(1.05);
+  }
+  
+  button.btn-tambah:active {
+    background-color: rgb(255, 91, 132); 
+    transform: scale(0.98);
+  }
+  
